@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>404: Page Not Found</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+
+<body>
+  <div id="container">
+		<div class="content">
+
+			<div class="teks-utama">
+				<h2>404</h2>
+			</div>
+			<h4>Opps! Page Not Found</h4>
+			<p>The page you were looking for doesn't exist. You may have mistyped the addres or the page may have moved</p>
+
+			<a href="#">Back to Home</a>
+
+			<br><br>
+			<div class="penutup">
+				<p>Copyright 2020 || Taufik Kemal Thaha</p>
+			</div>
+
+			
+		</div>
+  </div>
+
+
+</body>
+
+<script type="text/javascript">
+	var container = document.getElementById('container');
+	window.onmousemove = function(e){
+		var x = - e.clientX/5,
+				y = - e.clientY/5;
+				
+		container.style.backgroundPositionX = x + 'px';
+		container.style.backgroundPositionY = y + 'px';
+	}
+</script>
+
+</html>
